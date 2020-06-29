@@ -1,0 +1,26 @@
+.App-header {
+  background-color: #282c34;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 32px;
+}
+
+.App-header a:hover {
+  cursor: pointer;
+  color: #60dbfb;
+}
+
+.App-header .img{
+  width: 500px;
+  height: 335px;
+}

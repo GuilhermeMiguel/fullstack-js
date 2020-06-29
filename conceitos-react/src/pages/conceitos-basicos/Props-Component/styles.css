@@ -1,0 +1,33 @@
+.container-props {
+  background-image: linear-gradient(#60dbfb, #c174e1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-props .container-itens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+.container-props .bem-vindo, .container-props .sobre {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-props .icone-voltar{
+  cursor: pointer;
+  margin: -10px 0 0px 10px;
+  width: 100%;
+}
