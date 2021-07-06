@@ -19,3 +19,11 @@ header#main-header .header-content a {
     text-decoration: none;
     font-size: 23px;
 }
+
+
+header#main-header .header-content #opcoes {
+    border: none;
+    background-color: transparent;
+}
+
+
