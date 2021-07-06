@@ -1,0 +1,88 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="FiltroTabela.js"></script>  
+
+    <style>
+        body{
+        font-family:Verdana;
+        }
+    
+        #tabela{
+            width:100%;
+            border:solid 1px black;
+            text-align:left;
+            border-collapse:collapse;
+        }
+        
+        #tabela tbody tr{
+            border:solid 1px;
+            height:30px;
+            cursor:pointer;
+        }
+        
+        #tabela thead{
+            background:lightgray;
+        }
+        
+        #tabela thead th:nth-child(1){
+            width:100px;
+        }
+        
+        #tabela input{
+            color:navy;
+            width:100%;
+        }
+</style> 
+</head>
+<body>
+    <div id="divConteudo">
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Descrição</th>
+                    <th>Grupo</th>
+                </tr>
+                <tr>
+                    <th><input type="text" id="textoColuna1"/></th>
+                    <th><input type="text" id="textoColuna2"/></th>
+                    <th><input type="text" id="textoColuna3"/></th>
+                </tr>            
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001.01-A</td>
+                    <td>Feijão preto</td>
+                    <td>Cerais</td>
+                </tr>
+                <tr>
+                    <td>001.02-B</td>
+                    <td>Feijão branco</td>
+                    <td>Cerais</td>
+                </tr>            
+                <tr>
+                    <td>002.10-C</td>
+                    <td>Arroz Integral</td>
+                    <td>Cerais</td>
+                </tr>
+                <tr>
+                    <td>003.12-D</td>
+                    <td>Iogurte de morango</td>
+                    <td>Laticínios</td>
+                </tr>
+                <tr>
+                    <td>041.27-E</td>
+                    <td>Desinfetante</td>
+                    <td>Limpeza</td>
+                </tr>            
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
+
