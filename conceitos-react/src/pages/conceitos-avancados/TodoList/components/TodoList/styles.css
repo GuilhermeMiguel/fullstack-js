@@ -1,0 +1,46 @@
+.container-todo{
+  background-image: linear-gradient(#60dbfb, #c174e1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-todo .container-itens {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 850px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+.container-todo .container-itens .left,  .container-todo .container-itens .right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+
+.container-todo .container-itens .left{
+  border-right: 1px solid gray;
+  border-radius: 0%;
+}
+
+.container-todo .container-itens .right {
+  cursor: pointer;
+}
+
+.container-todo  .icone-voltar{
+  cursor: pointer;
+  margin: -150px 0 40px 10px;
+  width: 100%;
+}

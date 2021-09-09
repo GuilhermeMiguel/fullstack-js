@@ -1,0 +1,33 @@
+.container-lista{
+  background-image: linear-gradient(#60dbfb, #c174e1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-lista  .container-itens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 850px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+.container-lista  .container-itens div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-lista  .icone-voltar{
+  cursor: pointer;
+  margin: 10px 0 0px 10px;
+  width: 100%;
+}
+
